@@ -8,5 +8,10 @@
     "id": "f2f5c99d-e876-4c88-b26e-fa4d3f604b2c",
     "username": "teddy",
     "password": "$2b$10$ZDRKUcBIpJzXPVV8GvkpEuhkEFKZUZGSomRPDFKLOB9Wxr.YZj10e"
+  },
+  {
+    "id": "4bb6b2dd-e936-4db2-867d-07b2a226ed88",
+    "username": "raiden",
+    "password": "$2b$10$rlFJ44XY7P6cwr3XUI6Rnu/0hZYLpfkjdjhVeoYd4W2MXZzMCCTmm"
   }
 ]

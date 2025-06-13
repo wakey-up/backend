@@ -5,9 +5,10 @@ const userRoutes = require('./api/users/routes');
 const jwtStrategy = require('./auth/jwt');
 
 const init = async () => {
+  const port = process.env.PORT || 3000;
   const server = Hapi.server({
-    port: 3000, // <--- Sekarang pakai port 3000 untuk backend Hapi.js
-    host: 'localhost',
+    port, // <--- Sekarang pakai port 3000 untuk backend Hapi.js
+    host: '0.0.0.0',
     routes: {
       cors: {
         origin: ['http://localhost:5173'], // <--- Ini harus port frontend React lo
